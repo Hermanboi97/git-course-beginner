@@ -6,7 +6,7 @@ export const cardData = [
     link: "/lessons/what-is-git",
   },
   {
-    title: "Git Installation",
+    title: "Git Installation cool",
     description:
       "Step-by-step guide on how to install Git on your operating system.",
     link: "/lessons/git-installation",
