@@ -1,14 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import Image from "next/image";
+import Link from "next/link";
 import { cardData } from "./lessons";
 
 export default function Home() {
@@ -16,7 +15,11 @@ export default function Home() {
     <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       {/* Search Bar */}
       <div className="row-start-1 w-full flex justify-end p-4">
-        <Input type="search" placeholder="Search lessons..." className="max-w-sm" />
+        <Input
+          type="search"
+          placeholder="Search lessons..."
+          className="max-w-sm"
+        />
       </div>
 
       <main className="flex flex-col row-start-2 items-center sm:items-start">
@@ -34,6 +37,12 @@ export default function Home() {
           </h1>
           <p className="text-sm/6 font-[family-name:var(--font-geist-mono)]">
             This is a cool thing and more
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </p>
         </div>
       </main>
