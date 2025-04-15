@@ -56,7 +56,14 @@ export default function Home() {
                 <CardTitle>{card.title}</CardTitle>
                 <CardDescription>{card.description}</CardDescription>
               </CardHeader>
-              <CardFooter></CardFooter>
+              <CardFooter>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+              </CardFooter>
             </Card>
           </Link>
         ))}
